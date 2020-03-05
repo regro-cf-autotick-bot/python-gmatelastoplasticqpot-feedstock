@@ -1,6 +1,6 @@
 {% set name = "python-gmatelastoplasticqpot" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "ad510dcca2ca93eafc0ebf8809cbcb16f397bd8827ad377bc6949df3b8c189f3" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "b90de7b88953e4d3015cec0ac82d18b9f615ea49b5fcfd7893827065d3a72286" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
-  script: "{{ PYTHON }} -m pip install . -vv"
+  skip: true  # [win]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -35,8 +35,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Elasto-plastic model based on a manifold of quadratic potentials (Python wrapper).'
-  description: 'Elasto-plastic model based on a manifold of quadratic potentials (Python wrapper).'
+  summary: Elasto-plastic model based on a manifold of quadratic potentials (Python wrapper).
+  description: Elasto-plastic model based on a manifold of quadratic potentials (Python wrapper).
   doc_url: https://github.com/tdegeus/GMatElastoPlasticQPot
   dev_url: https://github.com/tdegeus/GMatElastoPlasticQPot
 
