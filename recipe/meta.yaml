@@ -1,6 +1,6 @@
 {% set name = "python-gmatelastoplasticqpot" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "b90de7b88953e4d3015cec0ac82d18b9f615ea49b5fcfd7893827065d3a72286" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "3205c183838ef715222822bbfc0342adf55b63d4788600b625fc761ca28578eb" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,6 +23,7 @@ requirements:
     - setuptools
     - pip
     - pyxtensor
+    - qpot
   run:
     - python
 
