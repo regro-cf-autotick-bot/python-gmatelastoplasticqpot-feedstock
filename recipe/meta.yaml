@@ -1,6 +1,6 @@
 {% set name = "python-gmatelastoplasticqpot" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "8f3b2c0b73648be360b6fa4aa2c9b04f32e004be53b71931e7000baa87364bb7" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "695da14690416952c11ed8080d42f441acfd5a98511dcc8c492b6597bf44486a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,6 @@ source:
 
 build:
   number: 0
-  skip: true  # [win]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
