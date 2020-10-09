@@ -5,9 +5,13 @@ Home: https://github.com/tdegeus/GMatElastoPlasticQPot
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-gmatelastoplasticqpot-feedstock/blob/master/LICENSE.txt)
 
 Summary: Elasto-plastic model based on a manifold of quadratic potentials (Python wrapper).
+
+Development: https://github.com/tdegeus/GMatElastoPlasticQPot
+
+Documentation: https://github.com/tdegeus/GMatElastoPlasticQPot
 
 Elasto-plastic model based on a manifold of quadratic potentials (Python wrapper).
 
