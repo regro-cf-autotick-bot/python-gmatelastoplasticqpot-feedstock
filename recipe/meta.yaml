@@ -1,6 +1,6 @@
 {% set name = "python-gmatelastoplasticqpot" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "f801f6e2d1bf1dfbec04c4a7c095f6a7670b3c0dfa1e42f4da090998a7b6605f" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "5e5ddcecb9cd1648b696bbfd0d83efaabe03333c1c61ec5437399a246e7ca017" %}
 
 package:
   name: {{ name|lower }}
@@ -23,6 +23,7 @@ requirements:
     - pip
     - pyxtensor
     - qpot
+    - gmattensor
   run:
     - python
 
