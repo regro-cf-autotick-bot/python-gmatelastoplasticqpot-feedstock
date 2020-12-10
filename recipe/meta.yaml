@@ -1,6 +1,6 @@
 {% set name = "python-gmatelastoplasticqpot" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "912bc760234f5bba9e272c3fc5be3612271c438820e425a0288b92ecfdf04d2e" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "a92926a54877b705f028b64eb32f549881fbd0ea8e1263d9c199901b3255ed9c" %}
 
 package:
   name: {{ name|lower }}
