@@ -1,6 +1,6 @@
 {% set org = "tdegeus" %}
 {% set name = "GMatElastoPlasticQPot" %}
-{% set version = "0.14.0" %}
+{% set version = "0.15.0" %}
 
 package:
   name: python-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/{{ org }}/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: "8afa739d2471a2051ebe327250108e74990adec350254e27b0f69698940c5f58"
+  sha256: afae370288c375b81596328ca044ff105b5060d51d533568d0a7ea8ab4bc75a0
 
 build:
   number: 0
@@ -28,6 +28,7 @@ requirements:
     - gmattensor
   run:
     - python
+    - python-qpot
 
 test:
   imports:
